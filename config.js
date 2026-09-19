@@ -11,20 +11,20 @@ export default {
   system: [
     ['OS', 'Windows 11, Android'],
     ['Host', 'Zirve Yazılım'],
-    ['Kernel', 'Software Engineer'],
+    ['Kernel', 'Backend Engineer'],
     ['Shell', 'bash, PowerShell'],
-    ['IDE', 'IntelliJ IDEA, VS Code'], // TODO
+    ['IDE', 'VS Code, Visual Studio'], // TODO — Rider? Neovim?
   ],
 
   languages: [
-    ['Languages.Programming', 'Java, JavaScript, TypeScript, PHP, C#'],
+    ['Languages.Programming', 'TypeScript, JavaScript, C#'],
     ['Languages.Computer', 'HTML, CSS, SQL, JSON, YAML'],
-    ['Languages.Real', 'Türkçe, English'],
+    ['Languages.Real', 'Turkish, English'],
   ],
 
   hobbies: [
-    ['Hobbies.Software', 'Web & backend, automation'], // TODO
-    ['Hobbies.Other', 'Gym, film'],                    // TODO
+    ['Focus', 'APIs, data modelling, integrations'],
+    ['Hobbies.Other', 'Gym, film'], // TODO
   ],
 
   contact: [
