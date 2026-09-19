@@ -3,6 +3,7 @@
 // Counting lines of code means walking every commit you authored, which is far
 // too slow to redo daily. Each repo's totals are cached against the SHA its
 // default branch was on, so a repo is only re-walked after it actually moves.
+import crypto from 'node:crypto';
 import fs from 'node:fs';
 import path from 'node:path';
 
@@ -88,11 +89,14 @@ export async function fetchStats(login, token) {
   try { cache = JSON.parse(fs.readFileSync(CACHE, 'utf8')); } catch { /* first run */ }
 
   const next = {};
-  let added = 0, deleted = 0, walked = 0;
+  let added = 0, deleted = 0, walked = 0, empty = 0;
   for (const repo of repos) {
-    const key = `${repo.owner.login}/${repo.name}`;
+    // This file gets committed to a public repo, so it must not carry the names
+    // of private ones. A hash is just as stable a key and says nothing.
+    const key = crypto.createHash('sha256')
+      .update(`${repo.owner.login}/${repo.name}`).digest('hex').slice(0, 16);
     const head = repo.defaultBranchRef?.target?.oid ?? null;
-    if (head === null) { next[key] = { head, added: 0, deleted: 0 }; continue; }
+    if (head === null) { next[key] = { head, added: 0, deleted: 0 }; empty++; continue; }
 
     let entry = cache[key];
     if (!entry || entry.head !== head) {
@@ -104,7 +108,8 @@ export async function fetchStats(login, token) {
     deleted += entry.deleted;
   }
   fs.writeFileSync(CACHE, JSON.stringify(next, null, 2) + '\n');
-  console.log(`  ${repos.length} repos, ${walked} re-walked, ${repos.length - walked} from cache`);
+  console.log(`  ${repos.length} repos: ${walked} walked, `
+    + `${repos.length - walked - empty} unchanged, ${empty} empty`);
 
   return {
     createdAt: user.createdAt,

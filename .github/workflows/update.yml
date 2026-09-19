@@ -26,10 +26,13 @@ jobs:
 
       - name: Build the SVG cards
         env:
-          # A classic PAT with the `repo` scope, stored as a repository secret.
-          # The built-in GITHUB_TOKEN cannot see private contributions, so the
-          # commit and lines-of-code figures come out low without this.
+          # Preferred: a classic PAT with the `repo` scope, stored as a
+          # repository secret, which can see private contributions too.
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          # Fallback so the card still counts public commits and lines of code
+          # when that secret is missing. Without either, build.js drops to
+          # anonymous REST and both figures come out as zero.
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: node scripts/build.js
 
       - name: Commit if anything changed
