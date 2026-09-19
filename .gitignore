@@ -1,0 +1,6 @@
+node_modules/
+
+# Source photos stay local — only the generated art.txt files are committed.
+*.jpg
+*.jpeg
+*.png

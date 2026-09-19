@@ -1,0 +1,13 @@
+{
+  "name": "mtalhasahin-profile",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "preview": "node scripts/build.js --public",
+    "art": "node scripts/art.js"
+  },
+  "devDependencies": {
+    "jpeg-js": "^0.4.4"
+  }
+}

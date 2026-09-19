@@ -1,0 +1,45 @@
+name: Update profile card
+
+on:
+  schedule:
+    - cron: '17 3 * * *' # daily, a few minutes off the hour to dodge the rush
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-card
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Build the SVG cards
+        env:
+          # A classic PAT with the `repo` scope, stored as a repository secret.
+          # The built-in GITHUB_TOKEN cannot see private contributions, so the
+          # commit and lines-of-code figures come out low without this.
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        run: node scripts/build.js
+
+      - name: Commit if anything changed
+        run: |
+          git config user.name  'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add assets/dark_mode.svg assets/light_mode.svg scripts/loc-cache.json
+          if git diff --staged --quiet; then
+            echo "Card is already up to date."
+          else
+            git commit -m 'chore: refresh profile card'
+            git push
+          fi

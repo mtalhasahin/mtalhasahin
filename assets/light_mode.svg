@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="483" viewBox="0 0 840 483" role="img" aria-label="mtalhasahin GitHub profile summary">
+<title>mtalhasahin@github</title>
+<defs>
+  <linearGradient id="artgrad" x1="0" y1="0" x2="0.35" y2="1">
+    <stop offset="0%" stop-color="#1f2328"/>
+    <stop offset="55%" stop-color="#0969da"/>
+    <stop offset="100%" stop-color="#8250df"/>
+  </linearGradient>
+  <clipPath id="chrome"><rect x="0.5" y="0.5" width="839" height="482" rx="10"/></clipPath>
+</defs>
+<style>
+  text { font-family: "SFMono-Regular", "JetBrains Mono", Consolas, "Liberation Mono", Menlo, monospace;
+         font-size: 12px; white-space: pre; dominant-baseline: alphabetic; }
+  .ln { opacity: 0; animation: reveal .5s cubic-bezier(.2,.7,.3,1) forwards; }
+  @keyframes reveal { from { opacity: 0; transform: translateX(-10px); } to { opacity: 1; transform: none; } }
+  #cursor { animation: blink 1.1s steps(1) infinite; }
+  @keyframes blink { 0%,49% { opacity: 1; } 50%,100% { opacity: 0; } }
+  @media (prefers-reduced-motion: reduce) {
+    .ln { opacity: 1; animation: none; }
+    #cursor { animation: none; }
+  }
+</style>
+<g clip-path="url(#chrome)">
+  <rect width="840" height="483" fill="#ffffff"/>
+  <rect width="840" height="32" fill="#f6f8fa"/>
+  <line x1="0" y1="32" x2="840" y2="32" stroke="#d0d7de"/>
+  <circle cx="20" cy="16" r="5" fill="#ff5f56"/>
+  <circle cx="38" cy="16" r="5" fill="#ffbd2e"/>
+  <circle cx="56" cy="16" r="5" fill="#27c93f"/>
+  <text x="420" y="20" text-anchor="middle" fill="#57606a" font-size="11">mtalhasahin@github: ~</text>
+<text class="ln" x="24" y="68.0" textLength="288.0" lengthAdjust="spacing" fill="url(#artgrad)" style="animation-delay:0.000s">                 .......                </text>
+<text class="ln" x="24" y="83.5" textLength="288.0" lengthAdjust="spacing" fill="url(#artgrad)" style="animation-delay:0.035s">            ..:---====---::..           </text>
+<text class="ln" x="24" y="99.0" textLength="288.0" lengthAdjust="spacing" fill="url(#artgrad)" style="animation-delay:0.070s">          .:--==++*******++==-:.        </text>
+<text class="ln" x="24" y="114.5" textLength="288.0" lengthAdjust="spacing" fill="url(#artgrad)" style="animation-delay:0.105s">        .:-========+++=++*****+=:.      </text>
+<text class="ln" x="24" y="130.0" textLength="288.0" lengthAdjust="spacing" fill="url(#artgrad)" style="animation-delay:0.140s">       .:-:.               .=*#*+-.     </text>
+<text class="ln" x="24" y="145.5" textLength="288.0" lengthAdjust="spacing" fill="url(#artgrad)" style="animation-delay:0.175s">      .-:                    .=#*+-:    </text>
+<text class="ln" x="24" y="161.0" textLength="288.0" lengthAdjust="spacing" fill="url(#artgrad)" style="animation-delay:0.210s">      --.                     .=#*+=:   </text>
+<text class="ln" x="24" y="176.5" textLength="288.0" lengthAdjust="spacing" fill="url(#artgrad)" style="animation-delay:0.245s">     :-:.                     .=*#*+-.  </text>
+<text class="ln" x="24" y="192.0" textLength="288.0" lengthAdjust="spacing" fill="url(#artgrad)" style="animation-delay:0.280s">     :=:.                     .:+*#*+:  </text>
+<text class="ln" x="24" y="207.5" textLength="288.0" lengthAdjust="spacing" fill="url(#artgrad)" style="animation-delay:0.315s">      +-..:::--=:     :==-::::.:++:=+:. </text>
+<text class="ln" x="24" y="223.0" textLength="288.0" lengthAdjust="spacing" fill="url(#artgrad)" style="animation-delay:0.350s">   .. :-....:-=::..  :::==-:. .:+: :=-. </text>
+<text class="ln" x="24" y="238.5" textLength="288.0" lengthAdjust="spacing" fill="url(#artgrad)" style="animation-delay:0.385s">   -.  =:        ..  :..      .:=  =*+-.</text>
+<text class="ln" x="24" y="254.0" textLength="288.0" lengthAdjust="spacing" fill="url(#artgrad)" style="animation-delay:0.420s">   .-  =:.       .   ..       .-=  *#+-:</text>
+<text class="ln" x="24" y="269.5" textLength="288.0" lengthAdjust="spacing" fill="url(#artgrad)" style="animation-delay:0.455s">    -+.+-.       .    .       .-=.+#*+-:</text>
+<text class="ln" x="24" y="285.0" textLength="288.0" lengthAdjust="spacing" fill="url(#artgrad)" style="animation-delay:0.490s">   .+#%*+:      .--::=-.      :+##%#*=-.</text>
+<text class="ln" x="24" y="300.5" textLength="288.0" lengthAdjust="spacing" fill="url(#artgrad)" style="animation-delay:0.525s">   -+*++*=.   :-=========--   :+%%%*+=-.</text>
+<text class="ln" x="24" y="316.0" textLength="288.0" lengthAdjust="spacing" fill="url(#artgrad)" style="animation-delay:0.560s">    -**+**-. :........::..-.::=#%%#+=-: </text>
+<text class="ln" x="24" y="331.5" textLength="288.0" lengthAdjust="spacing" fill="url(#artgrad)" style="animation-delay:0.595s">     .*%##*-:-:  .=+++=. .+==*#%%#*=-:. </text>
+<text class="ln" x="24" y="347.0" textLength="288.0" lengthAdjust="spacing" fill="url(#artgrad)" style="animation-delay:0.630s">      .#%=-+*#+-:::---::-+##*-=%%*+-:.  </text>
+<text class="ln" x="24" y="362.5" textLength="288.0" lengthAdjust="spacing" fill="url(#artgrad)" style="animation-delay:0.665s">       +=   :+###*++++**##*-   #%#=:.   </text>
+<text class="ln" x="24" y="378.0" textLength="288.0" lengthAdjust="spacing" fill="url(#artgrad)" style="animation-delay:0.700s">      :-      .-+****#*+-.     **=-.    </text>
+<text class="ln" x="24" y="393.5" textLength="288.0" lengthAdjust="spacing" fill="url(#artgrad)" style="animation-delay:0.735s">       .                      .+=:.     </text>
+<text class="ln" x="24" y="409.0" textLength="288.0" lengthAdjust="spacing" fill="url(#artgrad)" style="animation-delay:0.770s">                              :-:.      </text>
+<text class="ln" x="24" y="424.5" textLength="288.0" lengthAdjust="spacing" fill="url(#artgrad)" style="animation-delay:0.805s">                              ..        </text>
+<text class="ln" x="24" y="440.0" textLength="288.0" lengthAdjust="spacing" fill="url(#artgrad)" style="animation-delay:0.840s">              .::::. :-.                </text>
+<text class="ln" x="24" y="455.5" textLength="288.0" lengthAdjust="spacing" fill="url(#artgrad)" style="animation-delay:0.875s">                   .                    </text>
+<text class="ln" x="341" y="68.0" textLength="475.2" lengthAdjust="spacing" style="animation-delay:0.364s"><tspan fill="#57606a">mtalhasahin@github                                                </tspan></text>
+<text class="ln" x="341" y="83.5" textLength="475.2" lengthAdjust="spacing" style="animation-delay:0.399s"><tspan fill="#8c959f">──────────────────────────────────────────────────────────────────</tspan></text>
+<text class="ln" x="341" y="99.0" textLength="475.2" lengthAdjust="spacing" style="animation-delay:0.434s"><tspan fill="#0969da">Uptime:</tspan><tspan fill="#d8dee4"> . . . . . . . . . . . . . . .  </tspan><tspan fill="#1f2328">12 years, 4 months, 12 days</tspan></text>
+<text class="ln" x="341" y="114.5" textLength="475.2" lengthAdjust="spacing" style="animation-delay:0.469s"><tspan fill="#0969da">OS:</tspan><tspan fill="#d8dee4"> . . . . . . . . . . . . . . . . . . . . .  </tspan><tspan fill="#1f2328">Windows 11, Android</tspan></text>
+<text class="ln" x="341" y="130.0" textLength="475.2" lengthAdjust="spacing" style="animation-delay:0.504s"><tspan fill="#0969da">Host:</tspan><tspan fill="#d8dee4"> . . . . . . . . . . . . . . . . . . . . . . .  </tspan><tspan fill="#1f2328">Zirve Yazılım</tspan></text>
+<text class="ln" x="341" y="145.5" textLength="475.2" lengthAdjust="spacing" style="animation-delay:0.539s"><tspan fill="#0969da">Kernel:</tspan><tspan fill="#d8dee4"> . . . . . . . . . . . . . . . . . . . .  </tspan><tspan fill="#1f2328">Software Engineer</tspan></text>
+<text class="ln" x="341" y="161.0" textLength="475.2" lengthAdjust="spacing" style="animation-delay:0.574s"><tspan fill="#0969da">Shell:</tspan><tspan fill="#d8dee4"> . . . . . . . . . . . . . . . . . . . . .  </tspan><tspan fill="#1f2328">bash, PowerShell</tspan></text>
+<text class="ln" x="341" y="176.5" textLength="475.2" lengthAdjust="spacing" style="animation-delay:0.609s"><tspan fill="#0969da">IDE:</tspan><tspan fill="#d8dee4"> . . . . . . . . . . . . . . . . . . .  </tspan><tspan fill="#1f2328">IntelliJ IDEA, VS Code</tspan></text>
+<text class="ln" x="341" y="192.0" textLength="0.0" lengthAdjust="spacing" style="animation-delay:0.644s"><tspan fill="#1f2328"></tspan></text>
+<text class="ln" x="341" y="207.5" textLength="475.2" lengthAdjust="spacing" style="animation-delay:0.679s"><tspan fill="#0969da">Languages.Programming:</tspan><tspan fill="#d8dee4"> . . . </tspan><tspan fill="#1f2328">Java, JavaScript, TypeScript, PHP, C#</tspan></text>
+<text class="ln" x="341" y="223.0" textLength="475.2" lengthAdjust="spacing" style="animation-delay:0.714s"><tspan fill="#0969da">Languages.Computer:</tspan><tspan fill="#d8dee4"> . . . . . . . . . . </tspan><tspan fill="#1f2328">HTML, CSS, SQL, JSON, YAML</tspan></text>
+<text class="ln" x="341" y="238.5" textLength="475.2" lengthAdjust="spacing" style="animation-delay:0.749s"><tspan fill="#0969da">Languages.Real:</tspan><tspan fill="#d8dee4"> . . . . . . . . . . . . . . . . .  </tspan><tspan fill="#1f2328">Türkçe, English</tspan></text>
+<text class="ln" x="341" y="254.0" textLength="0.0" lengthAdjust="spacing" style="animation-delay:0.784s"><tspan fill="#1f2328"></tspan></text>
+<text class="ln" x="341" y="269.5" textLength="475.2" lengthAdjust="spacing" style="animation-delay:0.819s"><tspan fill="#0969da">Hobbies.Software:</tspan><tspan fill="#d8dee4"> . . . . . . . . . . .  </tspan><tspan fill="#1f2328">Web &amp; backend, automation</tspan></text>
+<text class="ln" x="341" y="285.0" textLength="475.2" lengthAdjust="spacing" style="animation-delay:0.854s"><tspan fill="#0969da">Hobbies.Other:</tspan><tspan fill="#d8dee4"> . . . . . . . . . . . . . . . . . . . . . </tspan><tspan fill="#1f2328">Gym, film</tspan></text>
+<text class="ln" x="341" y="300.5" textLength="0.0" lengthAdjust="spacing" style="animation-delay:0.889s"><tspan fill="#1f2328"></tspan></text>
+<text class="ln" x="341" y="316.0" textLength="475.2" lengthAdjust="spacing" style="animation-delay:0.924s"><tspan fill="#8c959f">Contact ──────────────────────────────────────────────────────────</tspan></text>
+<text class="ln" x="341" y="331.5" textLength="475.2" lengthAdjust="spacing" style="animation-delay:0.959s"><tspan fill="#0969da">Email:</tspan><tspan fill="#d8dee4"> . . . . . . . . . . . . . . . . . . </tspan><tspan fill="#1f2328">mtalhasahin56@gmail.com</tspan></text>
+<text class="ln" x="341" y="347.0" textLength="475.2" lengthAdjust="spacing" style="animation-delay:0.994s"><tspan fill="#0969da">LinkedIn:</tspan><tspan fill="#d8dee4"> . . . . . . . . . . . . . . . . . . . . . .  </tspan><tspan fill="#1f2328">mtalhasahin</tspan></text>
+<text class="ln" x="341" y="362.5" textLength="475.2" lengthAdjust="spacing" style="animation-delay:1.029s"><tspan fill="#0969da">GitHub:</tspan><tspan fill="#d8dee4"> . . . . . . . . . . . . . . . . . . . . . . .  </tspan><tspan fill="#1f2328">mtalhasahin</tspan></text>
+<text class="ln" x="341" y="378.0" textLength="475.2" lengthAdjust="spacing" style="animation-delay:1.064s"><tspan fill="#0969da">Location:</tspan><tspan fill="#d8dee4"> . . . . . . . . . . . . . . . . . . . .  </tspan><tspan fill="#1f2328">Ankara, Türkiye</tspan></text>
+<text class="ln" x="341" y="393.5" textLength="0.0" lengthAdjust="spacing" style="animation-delay:1.099s"><tspan fill="#1f2328"></tspan></text>
+<text class="ln" x="341" y="409.0" textLength="475.2" lengthAdjust="spacing" style="animation-delay:1.134s"><tspan fill="#8c959f">GitHub Stats ─────────────────────────────────────────────────────</tspan></text>
+<text class="ln" x="341" y="424.5" textLength="475.2" lengthAdjust="spacing" style="animation-delay:1.169s"><tspan fill="#0969da">Repos:</tspan><tspan fill="#d8dee4"> . . . . . . . . . . . . . . . </tspan><tspan fill="#1f2328">19 {Contributed: 0}  Stars: 3</tspan></text>
+<text class="ln" x="341" y="440.0" textLength="475.2" lengthAdjust="spacing" style="animation-delay:1.204s"><tspan fill="#0969da">Commits:</tspan><tspan fill="#d8dee4"> . . . . . . . . . . . . . . . . . . . .  </tspan><tspan fill="#1f2328">0  Followers: 27</tspan></text>
+<text class="ln" x="341" y="455.5" textLength="475.2" lengthAdjust="spacing" style="animation-delay:1.239s"><tspan fill="#1f2328">Lines of Code: . . . . . . . . . . . . . . . . . .  </tspan><tspan fill="#1f2328">0 ( </tspan><tspan fill="#1a7f37">0++</tspan><tspan fill="#1f2328">, </tspan><tspan fill="#cf222e">0--</tspan><tspan fill="#1f2328"> )</tspan></text>
+  <rect id="cursor" x="341" y="461.0" width="7.2" height="12" fill="#1a7f37"
+        opacity="0" style="animation-delay:1.274s"/>
+</g>
+<rect x="0.5" y="0.5" width="839" height="482" rx="10" fill="none" stroke="#d0d7de"/>
+</svg>
