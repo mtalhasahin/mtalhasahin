@@ -13,7 +13,7 @@ export default {
     ['Host', 'Zirve Yazılım'],
     ['Kernel', 'Backend Engineer'],
     ['Shell', 'bash, PowerShell'],
-    ['IDE', 'VS Code, Visual Studio'], // TODO — Rider? Neovim?
+    ['IDE', 'Visual Studio, VS Code'],
   ],
 
   languages: [
